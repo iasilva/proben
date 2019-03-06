@@ -1,0 +1,17 @@
+#bodyCorrespondencia{
+    background-color: rgba(229,229,229,0.17);
+}
+#folhaa4{
+    background: #FFFFFF;
+    height: 29.7cm;
+    width: 21cm;
+    position: fixed;
+    margin: 2em 10em;
+}
+
+#folhaa4.content{
+    margin-top:2cm;
+    margin-right:2cm;
+    margin-left:2cm;
+    margin-bottom:2cm;
+}

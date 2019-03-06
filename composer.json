@@ -1,0 +1,21 @@
+{
+    "name": "thirday/framework",
+    "description": "Framework basico para desenvolvimento",
+    "type": "project",
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "Ivan Alves da Silva",
+            "email": "ivan.alves@outlook.com"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Thirday\\": "Src",
+            "App\\": "App"
+        }
+    }
+}

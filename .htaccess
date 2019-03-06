@@ -1,0 +1,8 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f	
+RewriteCond %{REQUEST_FILENAME} !-d	
+RewriteRule ^([a-z]+)\/([a-z]+)\/([a-z]+)\/([a-z]+)\/([0-9]+)$ public/index.php?public=$1&controller=$2&action=$3&pagination=$4&pagina=$5 [NC,L]
+RewriteRule ^([a-z]+)\/([a-z]+)\/([a-z]+)\/([0-9]+)$ public/index.php?public=$1&controller=$2&action=$3&id=$4 [NC,L]
+RewriteRule ^([a-z]+)\/([a-z]+)\/([a-z]+)$ public/index.php?public=$1&controller=$2&action=$3 [NC,L]
+RewriteRule ^([a-z]+)\/([a-z]+)$ public/index.php?public=$1&controller=$2 [NC,L]
+

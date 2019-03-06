@@ -1,0 +1,17 @@
+{
+  "ambiente": "desenvolvimento",
+  "desenvolvimento": {
+    "host": "http://localhost/investmentsfound",
+    "url": "http://proben/"
+  },
+  "producao": {
+    "host": ""
+  },
+  "name":"Ivan Alves da Silva",
+  "email":"ivan.alves@outlook.com",
+  "version":"0.0.1",
+
+  "inicio":"22/08/2017",
+  "publicacao":"",
+  "publicacaoVersao":""
+}
